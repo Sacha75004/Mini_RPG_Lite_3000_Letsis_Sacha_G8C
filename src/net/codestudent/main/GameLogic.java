@@ -68,7 +68,7 @@ public class GameLogic{
         clearConsole();
         printSeperator(40);
         printSeperator(30);
-        System.out.println("L'Âge du Grand EMPEREUR");
+        System.out.println("L'Ere du terrible Maurice");
         System.out.println("Fait par Sacha Letsis");
         printSeperator(30);
         printSeperator(40);
@@ -205,7 +205,7 @@ public class GameLogic{
             System.out.println("XP: " + player.xp + "\nOr: " + player.or);
             printSeperator(20);
             // number of potions
-            System.out.println("Nombre DE Potions: " + player.potions);
+            System.out.println("Nombre de Potions: " + player.potions);
             printSeperator(20);
 
         // printing the choosen traits
@@ -222,12 +222,12 @@ public class GameLogic{
         // shopping / encountering a marchant
         public static void shop(){
         clearConsole();
-        printHeading("Vous avez rencontré un mystérieux marchand. Il vous a offert quelque chose:");
+        printHeading("Vous avez rencontré un mystérieux marchand. Il vous propose une offre:");
         int price = (int) (Math.random() * (10 + player.potions * 3) + 10 + player.potions);
         System.out.println("- Potion Magique: " + price + " d'or.");
         printSeperator(20);
         // ask the player to buy one
-        System.out.println("Voulez-vous en payer une ?\n(1) Oui !\n(2) Non merci.");
+        System.out.println("Marchand :'Bonjour cher aventurier! Voulez-vous payer une magnifique potion magique qui a le pouvoir de soigner intégralement toutes vos blessures?'\n(1) Oui !\n(2) Non merci.");
         int input = readInt("->", 2);
         // check if player wants to buy
         if (input == 1){

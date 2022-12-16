@@ -7,9 +7,9 @@ public class Histoire {
         GameLogic.printSeperator(30);
         System.out.println("L'Histoire");
         GameLogic.printSeperator(30);
-        System.out.println("Dans un monde post-apocalytpique, Vous faites partie des derniers survivants, tout ceci déclenché par le terrible EMPEREUR.");
+        System.out.println("Dans un monde post-apocalytpique, Vous faites partie des derniers survivants, tout ceci déclenché par le terrible EMPEREUR Maurice.");
         System.out.println("A cause de lui, vos amis, votre famille, tous vos proches sont morts.");
-        System.out.println("Vous devez à tout prix partir à l'aventure, parcourir des terres oubliées afin de venger tous vos proches de l'EMPEREUR.");
+        System.out.println("Vous devez à tout prix partir à l'aventure, parcourir des terres oubliées afin de venger tous vos proches de l'EMPEREUR Maurice.");
         GameLogic.anythingToContinue();
     }
 
@@ -21,7 +21,7 @@ public class Histoire {
         System.out.println("Votre aventure commmence dès maintenant. Vous devrez passer par la grande forêt avant d'arpenter les Montagnes du Destin.");
         System.out.println("Ces montagnes sont connues pour être très dangereuses. On dit que personne n'en est ressorti vivant.");
         System.out.println("Après avoir parcouru toute la forêt, vous arrivez enfin au pied de la première montagne.");
-        System.out.println("Vous décidez donc d'y aller malgré les rumeurs dont vous avez entendu parler, après tout, vous devez battre l'EMPEREUR !");
+        System.out.println("Vous décidez donc d'y aller malgré les rumeurs dont vous avez entendu parler, après tout, vous devez battre Maurice le grand EMPEREUR !");
         System.out.println("\nPS : Vous devrez accumuler un total de 10 niveaux d'expérience pour accéder à la zone suivante.");
         GameLogic.anythingToContinue();
     }
@@ -102,7 +102,7 @@ public class Histoire {
     public static void printEnd(Player player){
         GameLogic.clearConsole();
         GameLogic.printSeperator(30);
-        System.out.println("FELICITATIONS, " + player.name + "! Vous avez vaincu le grand EMPEREUR et amené la paix dans le monde !");
+        System.out.println("FELICITATIONS, " + player.name + "! Vous avez vaincu Maurice le grand EMPEREUR et amené la paix dans le monde !");
         GameLogic.printSeperator(30);
         System.out.println("Jeu développé entièrement par Sacha Letsis pour le module d'Algorithme et Programmation !");
         System.out.println("Merci, et à bientôt pour de prochains projets !! :)");
